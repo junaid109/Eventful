@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Eventful.Persistence
-build_property.ProjectDir = C:\Users\junai\Documents\Github Projects\Eventful\api\Eventful.Persistence\
+build_property.ProjectDir = C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\

@@ -1,3 +1,6 @@
+using Eventful.Persistence;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,7 +14,19 @@ try
     builder.Services.AddDbContext<DataContext>(options =>
     {
         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+        
     });
+
+    // configure seed data into database
+    using (var scope = builder.Services.BuildServiceProvider().CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        var context = services.GetRequiredService<DataContext>();
+        context.Database.EnsureCreated();
+        SeedData.SeedDatabase(context);
+    }
+
+
 }
 catch (Exception ex)
 {

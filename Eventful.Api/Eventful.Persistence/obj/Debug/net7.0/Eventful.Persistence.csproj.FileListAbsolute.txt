@@ -1,0 +1,17 @@
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\bin\Debug\net7.0\Eventful.Persistence.deps.json
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\bin\Debug\net7.0\Eventful.Persistence.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\bin\Debug\net7.0\Eventful.Persistence.pdb
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\bin\Debug\net7.0\Eventful.Domain.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\bin\Debug\net7.0\Eventful.Domain.pdb
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.csproj.AssemblyReference.cache
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.AssemblyInfoInputs.cache
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.AssemblyInfo.cs
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.csproj.CopyComplete
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\refint\Eventful.Persistence.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.pdb
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\ref\Eventful.Persistence.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\bin\Debug\net7.0\Eventful.Persistence.runtimeconfig.json
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Persistence\obj\Debug\net7.0\Eventful.Persistence.genruntimeconfig.cache

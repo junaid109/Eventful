@@ -1,0 +1,12 @@
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\bin\Debug\net7.0\Eventful.Application.deps.json
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\bin\Debug\net7.0\Eventful.Application.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\bin\Debug\net7.0\Eventful.Application.pdb
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.csproj.AssemblyReference.cache
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.AssemblyInfoInputs.cache
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.AssemblyInfo.cs
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.csproj.CoreCompileInputs.cache
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\refint\Eventful.Application.dll
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\Eventful.Application.pdb
+C:\Users\junai\Documents\Github Projects\Eventful\Eventful.Api\Eventful.Application\obj\Debug\net7.0\ref\Eventful.Application.dll

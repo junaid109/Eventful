@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ggI0dsM1rWUXYlY2nwo865IAIIGDZnfRSk3pUNAzMjVd/6Z0cHsccIJ4UPL4J9pXxXTvF7EnX8dInpGm1hJkyA==",
+  "dgSpecHash": "7GGdLwPjQrA/fglzLd+zXlcZ96ql3jJE1WNW8hDG5AptjNgIRWBNGSPuDSEbm7FWVZuzJEMenisyrR/98gAyng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\api\\Eventful.Domain\\Eventful.Domain.csproj",
+  "projectFilePath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\Eventful.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

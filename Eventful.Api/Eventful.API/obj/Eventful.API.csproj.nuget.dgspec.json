@@ -1,17 +1,116 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\api\\Eventful.API\\Eventful.API.csproj": {}
+    "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.API\\Eventful.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\api\\Eventful.API\\Eventful.API.csproj": {
+    "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.API\\Eventful.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\api\\Eventful.API\\Eventful.API.csproj",
+        "projectUniqueName": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.API\\Eventful.API.csproj",
         "projectName": "Eventful.API",
-        "projectPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\api\\Eventful.API\\Eventful.API.csproj",
+        "projectPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.API\\Eventful.API.csproj",
         "packagesPath": "C:\\Users\\junai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\api\\Eventful.API\\obj\\",
+        "outputPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\junai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Persistence\\Eventful.Persistence.csproj": {
+                "projectPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Persistence\\Eventful.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\Eventful.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\Eventful.Domain.csproj",
+        "projectName": "Eventful.Domain",
+        "projectPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\Eventful.Domain.csproj",
+        "packagesPath": "C:\\Users\\junai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -44,14 +143,98 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Persistence\\Eventful.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Persistence\\Eventful.Persistence.csproj",
+        "projectName": "Eventful.Persistence",
+        "projectPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Persistence\\Eventful.Persistence.csproj",
+        "packagesPath": "C:\\Users\\junai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\junai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\Eventful.Domain.csproj": {
+                "projectPath": "C:\\Users\\junai\\Documents\\Github Projects\\Eventful\\Eventful.Api\\Eventful.Domain\\Eventful.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [
@@ -66,9 +249,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
