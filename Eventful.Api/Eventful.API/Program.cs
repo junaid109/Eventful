@@ -33,6 +33,14 @@ catch (Exception ex)
     Console.WriteLine(ex.Message);
 }
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+    {
+        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -44,10 +52,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors("CorsPolicy");
+
 app.UseAuthorization();
 
 app.MapControllers();
-
-
 
 app.Run();
