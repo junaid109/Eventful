@@ -1,4 +1,5 @@
 ﻿using Eventful.Persistence;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eventful.API.Controller
@@ -7,12 +8,12 @@ namespace Eventful.API.Controller
     [Route("api/[controller]")]
     public class EventsController : ControllerBase
     {
-        private readonly DataContext _context;
-
-        public EventsController(DataContext context)
-        {
-            _context = context;
-        }
+        private readonly IMediator _mediator;
+		public EventsController(IMediator mediator)
+		{
+			_mediator = mediator;
+		}
+        
 
         [HttpGet]
         public IActionResult GetEvents()
