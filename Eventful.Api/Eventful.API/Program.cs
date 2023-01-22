@@ -1,4 +1,5 @@
 using Eventful.Persistence;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,6 +41,8 @@ builder.Services.AddCors(options =>
         policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
     });
 });
+
+builder.Services.AddMediatR(typeof(Application.Events.List.Handler).Assembly);
 
 var app = builder.Build();
 
