@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Eventful.Persistence\Eventful.Persistence.csproj" />
+    <ProjectReference Include="..\Eventful.Domain\Eventful.Domain.csproj" />
+    <ProjectReference Include="..\Eventful.Application\Eventful.Application.csproj" />
   </ItemGroup>
 
 </Project>
