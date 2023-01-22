@@ -18,7 +18,7 @@ namespace Eventful.Application.Events
 			private readonly DataContext _context;
 			public Handler(DataContext dataContext)
 			{
-				_dataContext = dataContext;
+				_context = dataContext;
 			}
 			
 			public async Task<List<EventEntity>> Handle(Query request, CancellationToken cancellationToken)
